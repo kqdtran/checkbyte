@@ -1,5 +1,5 @@
 (function() {
-  var TIMEOUT = 20000000;
+  var TIMEOUT = 2000000000;
   var loadingImg = '<img id="loadingImage" src="/static/img/ajax-loader.gif" />';
 
   var errored = function(xml, status, message, $elem) {
