@@ -1,28 +1,8 @@
-Bottle on Heroku
-================
+checkByte
+=========
 
-Create your virtualenv, then install the requirements with 
+Procrastinating while studying for my finals...
 
-```    
-pip install -r requirements.txt
-```
+See http://checkbyte.herokuapp.com/
 
-Then run
-
-```   
-python app.py
-```
-
-to generate magic in development.   
-
-To push to Heroku, 
-
-```     
-heroku create    
-git add .     
-git commit -m "init"    
-git push heroku master     
-heroku open
-```   
-
-to see your beautiful website on Heroku :p
+It's just a simple tool to measure code difference in byte, useful for students who submit projects regrade...
