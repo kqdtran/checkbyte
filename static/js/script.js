@@ -28,6 +28,7 @@
 
   var fetchDiff = function(oldCode, newCode) {
     var $sentDiv = $("#result");
+    $sentDiv.empty();
     $sentDiv.show();
     $sentBtn = $("#checkByte");
     updateValue("/checkByte", oldCode, newCode, $sentDiv, function(res) {
